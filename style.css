@@ -1,0 +1,86 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.intro{
+	background-color: #ffc400;
+	background-image: url(tanya.jpg);
+	height: 350px;
+	background-attachment: fixed;
+}
+
+h1{
+	color: #1916f0;
+	font-weight: bold;
+	transition: 0.5s;
+}
+.about{
+	text-align: center;
+	background-color: darkcyan;
+	margin-top: 30px;
+	
+	
+}
+
+.head{
+	background-color: darkgoldenrod;
+	font-weight: bold;
+	font-size: xx-large;
+	
+}
+.bod{
+	background-color: rgb(187, 81, 169);
+	opacity: 0.5s;
+}
+.para{
+	text-align: center;
+	margin: 80px;
+}
+.h3{
+	color:#2F363F;
+	font-size: xx-large;
+}
+
+button{
+	border:none;
+	border-radius: 8px;
+	padding: 10px;
+	background:#7B8788; 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+
+button:hover,h1:hover{
+	transform: scale(1.1);
+}
+.card:hover{
+	transform: scale(1.1);
+}
+button:hover{
+	background-color:#f81313;
+}
+footer{
+	color:#beec16;
+	background-color:#f34387;
+	letter-spacing: 0.5px;
+}
+footer p{
+	margin: 0;
+	font-size: 15px;
+}
+@media only screen and (orientation:portrait){
+	.intro{
+		display:flex;
+		flex-direction: column-reverse;
+	}
+	h1{
+		font-size: 30px;
+	}
+	.act{
+		padding-bottom: 100px;
+	}
+}
